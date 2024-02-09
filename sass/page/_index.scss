@@ -1,0 +1,62 @@
+body{
+    background-color: $lightbrown;
+    font-family: $font;
+    color: $darkbrown;
+    .banner{
+        text-align:center;
+        img{
+            margin: 120px 0;
+            width: 90vw;
+        }
+    } 
+    .imagenes{
+        background-color: #603b32;
+        border-radius: 10px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 5% 34% 70%;
+        grid-template-areas: 
+        "pd pd"
+        "imagen1 imagen3"
+        "imagen2 imagen3";
+        gap: 2px;
+        width: 95%;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 90px;
+        padding: 250px 0;
+        .pd{
+            font-family: 'dixey', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            justify-self: center;
+            align-self: center;
+            grid-area: pd;
+            font-size: 3rem;
+        }
+        .img1{
+            grid-area: imagen1;
+            img{
+                width: 90%;
+                height: 90%;
+            }
+        }
+        .img2{
+            grid-area: imagen2;
+            img{
+                width: 90%;
+                height: 90%;
+            }
+        }
+        
+        .img3{
+            grid-area: imagen3;
+            img{
+                width: 90%;
+                height: 90%;
+            }
+        }
+    }
+}

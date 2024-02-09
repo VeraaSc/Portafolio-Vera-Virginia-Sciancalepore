@@ -1,0 +1,64 @@
+.acercademi{
+    font-family: 'dixey', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "foto titulo2"
+    "foto p"
+    "acercadelboton acercadelboton";
+    grid-template-columns:20% 50%;
+    grid-template-rows: 15% 50% 15%;
+    align-items: start;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+    .foto{
+        img{
+            grid-area: foto;
+            width: 80%;
+            height: 80%;
+        }
+    }
+    .titulo2{
+        grid-area: titulo2;
+        font-size: 4rem;
+        justify-items: left;
+    }
+    .p{
+        font-family: 'Tenor Sans', sans-serif;
+        grid-area: p;
+        font-size: 1.7rem;
+    }
+}
+
+.acercadelboton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .colaborar{
+        font-family: 'dixey', sans-serif;
+        font-size: 3rem;
+    }
+    .input{
+        margin: 10px auto;
+    }
+    .boton{
+        background-color: #603b32;
+        font-family: 'dixey', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        width: 200px;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 1.3rem;
+        margin-bottom: 10%;
+        border: solid 1px;
+        box-shadow: 5px 8px 10px -5px rgba(56,27,27,0.75);
+    }
+
+    .boton:active{
+        box-shadow: 11px 9px 5px -5px rgba(56,27,27,0.75) inset;
+    }
+}

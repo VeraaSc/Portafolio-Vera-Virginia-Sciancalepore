@@ -1,0 +1,455 @@
+@media screen and (max-width:500px) {
+    header {
+        flex-direction: column-reverse;
+
+        nav {
+            width: 100%;
+            margin-top: 5px;
+
+            ul {
+                margin: 10px 10px;
+            }
+
+        }
+    }
+
+    // Proyectos
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+
+        .grid-item:nth-child(1) {
+            grid-row-start: span 2;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(2) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(3) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(4) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(5) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(6) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(7) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(8) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(9) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(10) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(11) {
+            grid-row-start: span 2;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(12) {
+            grid-row-start: span 2;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(13) {
+            grid-row-start: span 2;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(14) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(15) {
+            grid-row-start: span 4;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(16) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(17) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(18) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(19) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(20) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(21) {
+            grid-row-start: span 2;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(22) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(23) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(24) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(25) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(26) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(27) {
+            grid-row-start: span 2;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(28) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(29) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(30) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+
+        .grid-item:nth-child(31) {
+            grid-row-start: span 3;
+
+            .grid-tittle {
+                font-size: 0.6rem;
+            }
+        }
+    }
+
+    // Sobre mí
+
+    main {
+        .acercademi {
+            display: grid;
+            grid-template-areas:
+                "foto"
+                "titulo2"
+                "p"
+                "acercadelboton";
+            grid-template-columns: 100%;
+            grid-template-rows: 1.2fr 0.2fr 1fr;
+            justify-items: center;
+            align-items: center;
+            gap: 0;
+
+            .foto {
+                display: flex;
+                justify-content: center;
+                margin-top: 3rem;
+            }
+
+            .titulo2 {
+                font-size: 2rem;
+                height: 10px;
+            }
+
+            .p {
+                font-size: 1rem;
+                padding: 0 2rem;
+                text-align: justify;
+            }
+        }
+
+        .acercadelboton {
+            margin-bottom: 150px;
+
+            .colaborar {
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+    }
+
+    // Contacto
+    .mainContacto {
+        .mensaje {
+            font-family: 'dixey', sans-serif;
+            text-align: center;
+            margin: 50px 0;
+            font-size: 2rem;
+            color: $darkbrown;
+            font-weight: 600;
+        }
+    }
+
+    .mainContacto form {
+        background-color: $darkbrown;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px 0;
+        color: #ffffff;
+        margin-bottom: 150px;
+
+        .formulario {
+            margin-top: 50px;
+        }
+
+        input {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        .msj {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        .boton1 {
+            font-family: 'dixey', sans-serif;
+            width: 120px;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: $white;
+            border-radius: 7px;
+            color: $darkbrown;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    // certificados
+    .carrousel {
+        position: fixed;
+        bottom: 30%;
+        margin-bottom: 0;
+
+        .grid-items34 {
+            width: 80%;
+            margin: 40px 10%;
+        }
+    }
+
+    // Home
+    body{
+        .banner{
+            img{
+                margin: 50px 0;
+            }
+        }
+    }
+    
+    main{
+        .imagenes{
+            display: grid;
+            grid-template-columns: 45% 45%;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+            "pd pd"
+            "imagen1 imagen3"
+            "imagen2 imagen3";
+            padding: 40px 0;
+            gap: 3px;
+            margin-bottom: 150px;
+
+            .pd{
+                font-size: 1.5rem;
+            }
+            .img1{
+                grid-area: imagen1;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img2{
+                grid-area: imagen2;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            
+            .img3{
+                grid-area: imagen3;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    header {
+        .label_hamburguesa {
+            display: none;
+        }
+
+        .navbar {
+            .ul_links {
+                position: static;
+                width: 50%;
+                flex-direction: row;
+                height: auto;
+                margin-top: 1rem;
+                justify-content: space-between;
+
+                .link {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+}

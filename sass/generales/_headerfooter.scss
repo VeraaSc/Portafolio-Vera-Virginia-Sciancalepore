@@ -1,0 +1,106 @@
+/* header{
+    background-color: $darkbrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    .navbar{
+        width: 60%;
+        .ul_links{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 80px;
+            a{
+                color: $white;
+                text-decoration: none;
+                font-size: 1.8rem;
+            }
+        }
+    }
+} */
+
+a{
+    text-decoration: none;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+header{
+    height: 90px;
+    background-color: $darkbrown;
+    .navbar{
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 0 2rem;
+        .logoverarte{
+            width: 125px;
+        }
+        .menu_hamburguesa{
+            display: none;
+        }
+        .menu_hamburguesa:checked + .ul_links{
+            height: calc(50vh - $altura_header);
+            box-shadow: -1px 12px 19px 4px rgba(56,27,27,0.92);
+        }
+        .list_icon{
+            color: $white;
+            cursor: pointer;
+        }
+        .ul_links{
+            width: 100%;
+            background-color: $darkbrown;
+            position: absolute;
+            top: $altura_header;
+            left: 0;
+            height: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            transition: all .3s;
+            border-bottom-left-radius: 5px;
+            z-index: 1;
+            .link{
+                font-size: 1rem;
+                color: $white;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: $darkbrown;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+
+    .redes{
+        display: flex;
+        justify-content: space-around;
+    }
+}

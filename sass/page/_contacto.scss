@@ -1,0 +1,48 @@
+.mainContacto{
+    .mensaje{
+        font-family: 'dixey', sans-serif;
+        text-align: center;
+        margin: 50px 0;
+        font-size: 3rem;
+        color: $darkbrown;
+        font-weight: 600;
+    }
+}
+
+.mainContacto form{
+    background-color: $darkbrown;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    color: #ffffff;
+    margin-bottom: 150px;
+    .formulario{
+        margin-top: 50px;
+    }
+    
+    input{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .msj{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .boton1{
+        font-family: 'dixey', sans-serif;
+        width: 120px;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: $white;
+        border-radius: 7px;
+        color:$darkbrown;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
