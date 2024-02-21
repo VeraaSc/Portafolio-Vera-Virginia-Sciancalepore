@@ -15,7 +15,7 @@
         .grid-tittle{
             position: absolute;
             bottom: 0;
-            color:#ffffff;
+            color:$white;
             background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
             width: 100%;
             margin-bottom: 0%;
@@ -24,31 +24,31 @@
         }   
     }
     .grid-item:nth-child(1){
-        grid-row-start: span 4;
+        grid-row-start: span 3;
     }
     
     .grid-item:nth-child(2){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(3){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(4){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(5){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(6){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(7){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(8){
@@ -56,51 +56,51 @@
     }
     
     .grid-item:nth-child(9){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(10){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(11){
-        grid-row-start: span 6;
-    }
-    
-    .grid-item:nth-child(12){
         grid-row-start: span 4;
     }
     
+    .grid-item:nth-child(12){
+        grid-row-start: span 3;
+    }
+    
     .grid-item:nth-child(13){
-        grid-row-start: span 6;
+        grid-row-start: span 4;
     }
     
     .grid-item:nth-child(14){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(15){
-        grid-row-start: span 13;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(16){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(17){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(18){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(19){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(20){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(21){
@@ -108,39 +108,39 @@
     }
     
     .grid-item:nth-child(22){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(23){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(24){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(25){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(26){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(27){
-        grid-row-start: span 5;
+        grid-row-start: span 4;
     }
     
     .grid-item:nth-child(28){
-        grid-row-start: span 10;
+        grid-row-start: span 8;
     }
     
     .grid-item:nth-child(29){
-        grid-row-start: span 9;
+        grid-row-start: span 7;
     }
     
     .grid-item:nth-child(30){
-        grid-row-start: span 8;
+        grid-row-start: span 6;
     }
     
     .grid-item:nth-child(31){

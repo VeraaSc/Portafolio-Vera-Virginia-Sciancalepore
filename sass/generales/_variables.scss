@@ -3,3 +3,7 @@ $altura_header: 80px;
 $darkbrown: #603b32;
 $lightbrown: #b59791;
 $white: #ffffff;
+
+@mixin colordefondo ($color){
+    background-color: $color;
+}

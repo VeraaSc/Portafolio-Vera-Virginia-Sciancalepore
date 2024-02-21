@@ -5,8 +5,8 @@
     "foto titulo2"
     "foto p"
     "acercadelboton acercadelboton";
-    grid-template-columns:20% 50%;
-    grid-template-rows: 15% 50% 15%;
+    grid-template-columns:35% 50%;
+    grid-template-rows: 10% 40% 15%;
     align-items: start;
     align-content: center;
     justify-content: center;
@@ -43,7 +43,7 @@
         margin: 10px auto;
     }
     .boton{
-        background-color: #603b32;
+        @include colordefondo ($darkbrown);
         font-family: 'dixey', sans-serif;
         text-align: center;
         text-transform: uppercase;

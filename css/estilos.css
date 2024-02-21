@@ -168,8 +168,8 @@ body .imagenes .img3 img {
   font-family: "dixey", sans-serif;
   display: grid;
   grid-template-areas: "foto titulo2" "foto p" "acercadelboton acercadelboton";
-  grid-template-columns: 20% 50%;
-  grid-template-rows: 15% 50% 15%;
+  grid-template-columns: 35% 50%;
+  grid-template-rows: 10% 40% 15%;
   align-items: start;
   align-content: center;
   justify-content: center;
@@ -250,94 +250,94 @@ body .imagenes .img3 img {
   font-size: 1rem;
 }
 .grid-container .grid-item:nth-child(1) {
-  grid-row-start: span 4;
+  grid-row-start: span 3;
 }
 .grid-container .grid-item:nth-child(2) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(3) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(4) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(5) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(6) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(7) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(8) {
   grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(9) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(10) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(11) {
-  grid-row-start: span 6;
-}
-.grid-container .grid-item:nth-child(12) {
   grid-row-start: span 4;
 }
+.grid-container .grid-item:nth-child(12) {
+  grid-row-start: span 3;
+}
 .grid-container .grid-item:nth-child(13) {
-  grid-row-start: span 6;
+  grid-row-start: span 4;
 }
 .grid-container .grid-item:nth-child(14) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(15) {
-  grid-row-start: span 13;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(16) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(17) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(18) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(19) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(20) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(21) {
   grid-row-start: span 5;
 }
 .grid-container .grid-item:nth-child(22) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(23) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(24) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(25) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(26) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(27) {
-  grid-row-start: span 5;
+  grid-row-start: span 4;
 }
 .grid-container .grid-item:nth-child(28) {
-  grid-row-start: span 10;
+  grid-row-start: span 8;
 }
 .grid-container .grid-item:nth-child(29) {
-  grid-row-start: span 9;
+  grid-row-start: span 7;
 }
 .grid-container .grid-item:nth-child(30) {
-  grid-row-start: span 8;
+  grid-row-start: span 6;
 }
 .grid-container .grid-item:nth-child(31) {
   grid-row-start: span 4;
@@ -719,7 +719,7 @@ body .imagenes .img3 img {
     height: 100%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 993px) {
   header .label_hamburguesa {
     display: none;
   }
@@ -732,7 +732,328 @@ body .imagenes .img3 img {
     justify-content: space-between;
   }
   header .navbar .ul_links .link {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  header {
+    flex-direction: column-reverse;
+  }
+  header nav {
+    width: 100%;
+    margin-top: 5px;
+  }
+  header nav ul {
+    margin: 10px 10px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-container .grid-item:nth-child(1) {
+    grid-row-start: span 4;
+  }
+  .grid-container .grid-item:nth-child(1) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(2) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(2) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(3) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(3) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(4) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(4) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(5) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(5) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(6) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(6) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(7) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(7) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(8) {
+    grid-row-start: span 6;
+  }
+  .grid-container .grid-item:nth-child(8) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(9) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(9) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(10) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(10) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(11) {
+    grid-row-start: span 5;
+  }
+  .grid-container .grid-item:nth-child(11) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(12) {
+    grid-row-start: span 3;
+  }
+  .grid-container .grid-item:nth-child(12) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(13) {
+    grid-row-start: span 5;
+  }
+  .grid-container .grid-item:nth-child(13) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(14) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(14) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(15) {
+    grid-row-start: span 10;
+  }
+  .grid-container .grid-item:nth-child(15) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(16) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(16) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(17) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(17) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(18) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(18) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(19) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(19) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(20) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(20) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(21) {
+    grid-row-start: span 5;
+  }
+  .grid-container .grid-item:nth-child(21) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(22) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(22) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(23) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(23) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(24) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(24) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(25) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(25) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(26) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(26) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(27) {
+    grid-row-start: span 4;
+  }
+  .grid-container .grid-item:nth-child(27) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(28) {
+    grid-row-start: span 8;
+  }
+  .grid-container .grid-item:nth-child(28) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(29) {
+    grid-row-start: span 7;
+  }
+  .grid-container .grid-item:nth-child(29) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(30) {
+    grid-row-start: span 6;
+  }
+  .grid-container .grid-item:nth-child(30) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  .grid-container .grid-item:nth-child(31) {
+    grid-row-start: span 4;
+  }
+  .grid-container .grid-item:nth-child(31) .grid-tittle {
+    font-size: 0.6rem;
+  }
+  main .acercademi {
+    display: grid;
+    grid-template-areas: "foto" "titulo2" "p" "acercadelboton";
+    grid-template-columns: 100%;
+    grid-template-rows: 1.2fr 0.2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 5rem;
+  }
+  main .acercademi .foto {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  main .acercademi .titulo2 {
+    font-size: 2.5rem;
+    height: 10px;
+  }
+  main .acercademi .p {
     font-size: 1.5rem;
+    padding: 0 2rem;
+    text-align: justify;
+  }
+  main .acercadelboton {
+    margin-bottom: 130px;
+  }
+  main .acercadelboton .colaborar {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .mainContacto .mensaje {
+    font-family: "dixey", sans-serif;
+    text-align: center;
+    margin: 50px 10px;
+    font-size: 2rem;
+    color: #603b32;
+    font-weight: 600;
+  }
+  .mainContacto form {
+    background-color: #603b32;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    color: #ffffff;
+    margin-bottom: 150px;
+  }
+  .mainContacto form .formulario {
+    margin-top: 50px;
+  }
+  .mainContacto form input {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .mainContacto form .msj {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .mainContacto form .boton1 {
+    font-family: "dixey", sans-serif;
+    width: 120px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    color: #603b32;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .carrousel {
+    position: fixed;
+    bottom: 30%;
+    margin-bottom: 0;
+  }
+  .carrousel .grid-items34 {
+    width: 80%;
+    margin: 40px 10%;
+  }
+  body .banner img {
+    margin: 50px 0;
+  }
+  main .imagenes {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "pd pd" "imagen1 imagen3" "imagen2 imagen3";
+    padding: 40px 0;
+    gap: 3px;
+    margin-bottom: 150px;
+  }
+  main .imagenes .pd {
+    font-size: 1.5rem;
+  }
+  main .imagenes .img1 {
+    grid-area: imagen1;
+  }
+  main .imagenes .img1 img {
+    width: 100%;
+    height: 100%;
+  }
+  main .imagenes .img2 {
+    grid-area: imagen2;
+  }
+  main .imagenes .img2 img {
+    width: 100%;
+    height: 100%;
+  }
+  main .imagenes .img3 {
+    grid-area: imagen3;
+  }
+  main .imagenes .img3 img {
+    width: 100%;
+    height: 100%;
   }
 }
 

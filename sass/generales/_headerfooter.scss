@@ -39,7 +39,7 @@ ol,ul{
 
 header{
     height: 90px;
-    background-color: $darkbrown;
+    @include colordefondo ($darkbrown);
     .navbar{
         height: 100%;
         margin: 0;
@@ -65,7 +65,7 @@ header{
         }
         .ul_links{
             width: 100%;
-            background-color: $darkbrown;
+            @include colordefondo ($darkbrown);
             position: absolute;
             top: $altura_header;
             left: 0;
@@ -91,10 +91,9 @@ header{
 
 
 
-
 footer{
     width: 100%;
-    background-color: $darkbrown;
+    @include colordefondo ($darkbrown);
     padding: 1rem;
     position: fixed;
     bottom: 0;
